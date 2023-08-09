@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 
 
-openai.api_key ="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"
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 
 
